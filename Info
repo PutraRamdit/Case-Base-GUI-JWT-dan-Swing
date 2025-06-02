@@ -1,0 +1,10 @@
+ProductApp/
+└── src/
+    ├── Main.java              ← ← ← file ini
+    ├── model/
+    ├── auth/
+    └── view/
+
+#package src; → Sesuaikan dengan struktur folder src/Main.java.
+#SwingUtilities.invokeLater(...) → Pastikan GUI berjalan di thread yang sesuai.
+#new LoginFrame() → Membuka jendela login ketika aplikasi dimulai.
